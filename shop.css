@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
+  border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .navbar-logo {
@@ -70,9 +71,9 @@ body {
 
 .main-img {
   width: 45%;
-  height: 90%;
+  height: 100%;
   background-color: blue;
-  box-shadow: 8px 8px 1px rgb(165, 165, 165);
+  box-shadow: 8px 8px 1px rgb(255, 167, 59);
 }
 
 .main-img img {
@@ -82,10 +83,10 @@ body {
 }
 
 .main-contents {
-  width: 45%;
-  height: 90%;
+  width: 35%;
+  height: 100%;
 }
 
 .main-contents p {
-  font-size: 50px;
+  font-size: 130px;
 }
