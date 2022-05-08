@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   display: block;
-  width: 1100px;
+  width: 1150px;
   margin: auto;
 }
 * {
@@ -25,13 +25,17 @@ body {
 }
 
 .navbar-logo {
-  width: 150px;
+  width: 200px;
   margin-left: 5px;
   height: 80%;
 }
 
 .navbar-logo h1 {
   padding-top: 7px;
+}
+
+.navbar-logo span {
+  color: rgb(255, 167, 59);
 }
 
 .navbar-menu {
@@ -69,7 +73,7 @@ body {
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 45px;
   margin-bottom: 20px;
 }
@@ -96,17 +100,22 @@ body {
   font-size: 120px;
 }
 
+.main-contents span {
+  color: rgb(255, 167, 59);
+}
+
+/* loadcycle */
 .loadcycle {
   width: 100%;
   height: 400px;
   display: flex;
+  border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .loadcycle-title {
   width: 200px;
   height: 100%;
-  border-right: 1px solid rgb(181, 181, 181);
-  
+  padding-left: 30px;
 }
 
 .loadcycle-title h1 {
@@ -122,24 +131,74 @@ body {
   width: 80%;
   height: 100%;
   display: flex;
-  gap: 80px;
+  gap: 90px;
   padding-top: 50px;
   padding-left: 80px;
 }
 
-.brand-form {
+.load-form {
   width: 220px;
   height: 300px;
   background-color: rgb(255, 255, 244);
   box-shadow: 8px 8px 1px rgb(255, 167, 59);
 }
 
-.brand-form img {
+.load-form img {
   width: 220px;
   height: 150px;
 }
 
-.brand-form p {
+.load-form p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 55px;
+}
+
+/* mtbcycle */
+.mtbcycle {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.mtbcycle-title {
+  width: 200px;
+  height: 100%;
+  padding-left: 30px;
+}
+
+.mtbcycle-title h1 {
+  text-align: left;
+  padding-top: 200px;
+}
+
+.mtbcycle-title p {
+  text-align: left;
+}
+
+.mtbcycle-brand {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  gap: 90px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.mtb-form {
+  width: 220px;
+  height: 300px;
+  background-color: rgb(255, 255, 244);
+  box-shadow: 8px 8px 1px rgb(39, 39, 39);
+}
+
+.mtb-form img {
+  width: 220px;
+  height: 150px;
+}
+
+.mtb-form p {
   font-size: 20px;
   text-align: center;
   padding-top: 55px;
