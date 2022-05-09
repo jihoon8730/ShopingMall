@@ -159,7 +159,6 @@ body {
   width: 100%;
   height: 400px;
   display: flex;
-  border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .mtbcycle-title {
@@ -190,7 +189,7 @@ body {
   width: 220px;
   height: 300px;
   background-color: rgb(255, 255, 244);
-  box-shadow: 8px 8px 1px rgb(39, 39, 39);
+  box-shadow: 8px 8px 1px rgb(255, 167, 59);
 }
 
 .mtb-form img {
@@ -199,6 +198,56 @@ body {
 }
 
 .mtb-form p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.pixiecycle {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: rgb(255, 167, 59);
+}
+
+.pixiecycle-title {
+  width: 200px;
+  height: 100%;
+}
+
+.pixiecycle-title h1 {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.pixiecycle-title p {
+  text-align: center;
+}
+
+.pixiecycle-brand {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  gap: 70px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.pixie-form {
+  width: 220px;
+  height: 300px;
+  background-color: rgb(255, 255, 244);
+  box-shadow: 8px 8px 1px rgb(161, 99, 24);
+  border-radius: 5px;
+}
+
+.pixie-form img {
+  width: 220px;
+  height: 150px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.pixie-form p {
   font-size: 20px;
   text-align: center;
   padding-top: 55px;
