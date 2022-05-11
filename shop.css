@@ -284,3 +284,25 @@ body {
   text-align: center;
   padding-top: 55px;
 }
+
+/* Supplies */
+.aside {
+  width: 100%;
+  height: 500px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+}
+
+.supplies-title {
+  width: 400px;
+  height: 500px;
+  background-color: blue;
+}
+
+.supplies-contents {
+  width: 700px;
+  height: 500px;
+  background-color: aqua;
+}
+
